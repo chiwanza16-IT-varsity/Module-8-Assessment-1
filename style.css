@@ -1,0 +1,59 @@
+body{
+    background-image: url(it\ varsity.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+section{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 30%;
+    height: 300px;
+    padding: 50px;
+    border-radius: 30px;
+    margin: 250px auto;
+}
+
+section p {
+    font-size: 30px;
+    text-align: center;
+}
+
+form {
+    width: 80%;
+}
+
+form input {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin: 10px 20px;
+    border: none;
+    background-color: rgba(235, 81, 61, 0.664);
+}
+
+form label {
+    font-size: 20px;
+    display: block;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+form a {
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    width: 20%;
+    color: #fff;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: blue;
+    border-radius: 2px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
